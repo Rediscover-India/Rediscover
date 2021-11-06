@@ -149,6 +149,135 @@ animation : flip 0.5s 0.5s forwards linear;
     from {transform: translateX(700px);}
     to{transform: translateX(0px);}
   }
-  h1{
-    background-color: #7FD868;
+    #p2 {
+      padding: 10px;
     }
+    @media screen and ( max-width: 1200px ) {
+    img.image1 {width: 600px;
+    height: 462px;}
+    ul {
+       font-size: 20px;
+     }
+    }
+    @media screen and ( min-width:1200px ) and ( max-width: 1300px ) {
+      img.image1 {width: 600px;
+      height: 462px;}
+      ul {
+         font-size: 20px;
+       }
+      }
+      @media screen and ( min-width:1300px ) and ( max-width: 1420px ) {
+        img.image1 {width: 650px;
+        height: 500px;}
+        ul {
+           font-size: 22px;
+         }
+        }
+  @media screen and ( min-width:1420px ) and ( max-width: 1600px ) {
+  img.image1 {width: 710px;
+  height: 546px;}
+  ul {
+   font-size: 24px;
+  }
+  }
+  @media screen and ( min-width:1600px ) and ( max-width: 1700px ) {
+  img.image1 {width: 800px;
+  height: 615px;}
+  ul {
+   font-size: 25px;
+  }
+  }
+  @media screen and ( min-width:1700px ) and ( max-width: 1800px ) {
+  img.image1 {width: 850px;
+  height: 653px;}
+  ul {
+   font-size: 26px;
+  }
+  }
+  @media screen and ( min-width:1800px ) and ( max-width: 1900px ) {
+  img.image1 {width: 900px;
+  height: 692px;}
+  ul {
+   font-size: 28px;
+  }
+  }
+  @media screen and ( min-width:1900px ) and ( max-width: 2000px ) {
+  img.image1 {width: 950px;
+  height: 730px;}
+  ul {
+   font-size: 29px;
+  }
+  }
+  @media screen and ( min-width:2000px ) and ( max-width: 2100px ) {
+  img.image1 {width: 1000px;
+  height: 769px;}
+  ul {
+   font-size: 30px;
+  }
+  }
+  @media screen and ( min-width:2100px ) and ( max-width: 2200px ) {
+  img.image1 {width: 1050px;
+  height: 808px;}
+  ul {
+   font-size: 31px;
+  }
+  }
+  @media screen and ( min-width: 2200px ) {
+  img.image1 {width: 1100px;
+  height: 846px;}
+  ul {
+   font-size: 32px;
+  }
+  }
+  @media screen and ( max-width: 1200px ) {
+  img.image2 {width: 600px;
+  height: 462px;}
+  }
+  @media screen and ( min-width:1200px ) and ( max-width: 1300px ) {
+  img.image2 {width: 600px;
+  height: 462px;}
+  }
+  @media screen and ( min-width:1300px ) and ( max-width: 1420px ) {
+  img.image2 {width: 650px;
+  height: 500px;}
+  }
+  @media screen and ( min-width:1420px ) and ( max-width: 1600px ) {
+  img.image2 {width: 710px;
+  height: 546px;}
+  }
+  @media screen and ( min-width:1600px ) and ( max-width: 1700px ) {
+  img.image2 {width: 800px;
+  height: 615px;}
+  }
+  @media screen and ( min-width:1700px ) and ( max-width: 1800px ) {
+  img.image2 {width: 850px;
+  height: 653px;}
+  }
+  @media screen and ( min-width:1800px ) and ( max-width: 1900px ) {
+  img.image2 {width: 900px;
+  height: 692px;}
+  }
+  @media screen and ( min-width:1900px ) and ( max-width: 2000px ) {
+  img.image2{width: 950px;
+  height: 730px;}
+  }
+  @media screen and ( min-width:2000px ) and ( max-width: 2100px ) {
+  img.image2 {width: 1000px;
+  height: 769px;}
+  }
+  @media screen and ( min-width:2100px ) and ( max-width: 2200px ) {
+  img.image2 {width: 1050px;
+  height: 808px;}
+  }
+  @media screen and ( min-width: 2200px ) {
+  img.image2 {width: 1100px;
+  height: 846px;}
+  }
+  h1 {
+  font-size: 64px;
+  background: -webkit-linear-gradient(270deg,#c33764,#1d2671);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-family:Hoefler Text;
+  }
