@@ -74,9 +74,6 @@ p{
     background-color: #C3FCF2;
       padding: 10px;
 }
-#bg1{
-  background-color: #7FD868;
-}
 body {
   background-color: #FBC962;
 }
@@ -125,3 +122,89 @@ body {
       transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);
     }
+
+    @media screen and ( max-width: 1200px ) {
+    img{width: 300px;
+    height: 250px;}
+    div.text {
+       font-size: 20px;
+     }
+    }
+    @media screen and ( min-width:1200px ) and ( max-width: 1300px ) {
+      img{width: 300px;
+      height: 250px;}
+      div.text {
+         font-size: 20px;
+       }
+      }
+      @media screen and ( min-width:1300px ) and ( max-width: 1420px ) {
+        img{width: 325px;
+        height: 271px;}
+        div.text {
+           font-size: 22px;
+         }
+        }
+  @media screen and ( min-width:1420px ) and ( max-width: 1600px ) {
+    img{width: 350px;
+    height: 292px;}
+    div.text {
+       font-size: 23px;
+     }
+    }
+  @media screen and ( min-width:1600px ) and ( max-width: 1700px ) {
+    img{width: 375px;
+    height: 312px;}
+    div.text {
+       font-size: 24px;
+     }
+    }
+  @media screen and ( min-width:1700px ) and ( max-width: 1800px ) {
+    img{width: 400px;
+    height: 333px;}
+    div.text {
+       font-size: 25px;
+     }
+    }
+  @media screen and ( min-width:1800px ) and ( max-width: 1900px ) {
+    img{width: 425px;
+    height: 354px;}
+    div.text {
+       font-size: 26px;
+     }
+    }
+  @media screen and ( min-width:1900px ) and ( max-width: 2000px ) {
+    img{width: 450px;
+    height: 375px;}
+    div.text {
+       font-size: 27px;
+     }
+    }
+  @media screen and ( min-width:2000px ) and ( max-width: 2100px ) {
+    img{width: 475px;
+    height: 396px;}
+    div.text {
+       font-size: 28px;
+     }
+    }
+  @media screen and ( min-width:2100px ) and ( max-width: 2200px ) {
+    img{width: 500px;
+    height: 416px;}
+    div.text {
+       font-size: 29px;
+     }
+    }
+  @media screen and ( min-width: 2200px ) {
+    img{width: 525px;
+    height: 438px;}
+    div.text {
+       font-size: 30px;
+     }
+    }
+  .p1 {
+  font-size: 64px;
+  background: -webkit-linear-gradient(270deg,#c33764,#1d2671);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
+  font-family:Hoefler Text;
+  }
