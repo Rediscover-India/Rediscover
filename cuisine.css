@@ -266,7 +266,10 @@ img.image2 {width: 1000px;
 height: 769px;}
 }
 @media screen and ( min-width:2100px ) and ( max-width: 2200px ) {
-img.image2 {width: 1050px
+img.image2 {width: 1050px;
+height: 808px;}
+}
+@media screen and ( min-width: 2200px ) {
 img.image2 {width: 1100px;
 height: 846px;}
 }
