@@ -181,7 +181,37 @@ body {
      font-size: 25px;
    }
 }
-
+@media screen and ( min-width:1700px ) and ( max-width: 1800px ) {
+  img.image1 {width: 850px;
+  height: 653px;}
+  ul {
+     font-size: 26px;
+   }
+}
+@media screen and ( min-width:1800px ) and ( max-width: 1900px ) {
+  img.image1 {width: 900px;
+  height: 692px;}
+  ul {
+     font-size: 28px;
+   }
+}
+@media screen and ( min-width:1900px ) and ( max-width: 2000px ) {
+  img.image1 {width: 950px;
+  height: 730px;}
+  ul {
+     font-size: 29px;
+   }
+}
+@media screen and ( min-width:2000px ) and ( max-width: 2100px ) {
+  img.image1 {width: 1000px;
+  height: 769px;}
+  ul {
+     font-size: 30px;
+   }
+}
+@media screen and ( min-width:2100px ) and ( max-width: 2200px ) {
+  img.image1 {width: 1050px;
+  height: 808px;}
   ul {
      font-size: 31px;
    }
