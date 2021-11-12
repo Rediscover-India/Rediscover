@@ -208,3 +208,23 @@ body {
   font-style: italic;
   font-family:Hoefler Text;
   }
+.image1{
+  width: 1000px;
+  height:1200px;
+    outline: none;
+    display: flex;
+    margin: 0 auto;
+}
+map area{
+    outline: none;
+
+}
+.ClickP{
+  font-size: 32px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+}
+.ClickDiv{
+  background:#00ECD5
+}
